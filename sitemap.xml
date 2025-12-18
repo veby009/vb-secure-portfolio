@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://vishal-bhatt.vercel.app/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://vishal-bhatt.vercel.app/#about</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://vishal-bhatt.vercel.app/#certifications</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://vishal-bhatt.vercel.app/#contact</loc>
-    <priority>0.7</priority>
-  </url>
-</urlset>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Vishal Bhatt",
+  "jobTitle": "CISO & Digital Transformation Strategist",
+  "url": "https://vb-secure-portfolio.vercel.app/",
+  "image": "https://vb-secure-portfolio.vercel.app/assets/portrait.jpg",
+  "sameAs": [
+    "https://linkedin.com/in/vishalbhatt009",
+    "https://github.com/veby009"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "VB Secure 360"
+  },
+  "description": "Vishal Bhatt — a seasoned cybersecurity and digital transformation strategist with 24+ years of experience leading secure enterprise innovation."
+}
+</script>
