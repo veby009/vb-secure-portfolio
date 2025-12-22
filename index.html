@@ -11,7 +11,7 @@
   <meta name="author" content="Vishal Bhatt" />
   <meta name="google-site-verification" content="K157YPzV1vg4c2JnYVuv3NA2HBlrn1_rmTuqCNQAZ8k" />
 
-  <!-- OG & Twitter Meta -->
+  <!-- OpenGraph / Twitter -->
   <meta property="og:title" content="Vishal Bhatt | CISO & Digital Strategist" />
   <meta property="og:description" content="Transforming cybersecurity into strategic business value. Visit the professional portfolio of Vishal Bhatt." />
   <meta property="og:image" content="assets/og-image.png" />
@@ -44,11 +44,11 @@
   }
   </script>
 
-  <!-- Favicon & Manifest -->
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/VB-shield-favicon.png">
-  <link rel="apple-touch-icon" href="assets/VB-shield-favicon.png">
-  <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#4b0000">
+  <!-- Favicon / Manifest -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/VB-shield-favicon.png" />
+  <link rel="apple-touch-icon" href="assets/VB-shield-favicon.png" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#4b0000" />
 
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-KCM5Q74SX6"></script>
@@ -59,8 +59,8 @@
     gtag('config', 'G-KCM5Q74SX6');
   </script>
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Fonts & CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -68,7 +68,7 @@
   <!-- Header / Hero -->
   <header class="hero">
     <video autoplay muted loop playsinline id="heroVideo" class="bg-video">
-      <source src="assets/Vishal Bhatt Senior IT Manager  Digital Transformation Strategist .mp4" type="video/mp4">
+      <source src="assets/Vishal Bhatt Senior IT Manager  Digital Transformation Strategist .mp4" type="video/mp4" />
     </video>
     <div class="overlay"></div>
 
@@ -111,7 +111,7 @@
       <div class="card"><h3>Cybersecurity & Compliance</h3><p>ISO 27001 | SOC | Risk Management | ITGC</p></div>
       <div class="card"><h3>Digital Transformation</h3><p>Cloud Security | IT Modernization | Automation</p></div>
       <div class="card"><h3>Leadership & Governance</h3><p>IT Strategy | Team Leadership | Board Advisory</p></div>
-      <div class="card"><h3>VAPT & Threat Analysis</h3><p>Penetration Testing | Incident Response | Awareness Training</p></div>
+      <div class="card"><h3>VAPT & Threat Analysis</h3><p>Pen Testing | Incident Response | Awareness Training</p></div>
     </div>
   </section>
 
@@ -119,19 +119,22 @@
   <section id="certifications" class="fade-in">
     <h2>Certifications</h2>
     <div class="cert-grid">
-      <img src="assets/certificates/cissp-certificate.jpg" alt="CISSP" />
-      <img src="assets/certificates/INTRO-AI.jpg" alt="AI Certificate" />
+      <img src="assets/certificates/cissp-certificate.jpg" alt="CISSP Certificate" />
+      <img src="assets/certificates/INTRO-AI.jpg" alt="Introduction to AI" />
       <img src="assets/certificates/Cyber Hygienes -NCSAM_.jpg" alt="Cyber Hygiene" />
-      <img src="assets/certificates/core-infra-structure.jpg" alt="Infrastructure" />
-      <img src="assets/certificates/networking-plus.jpg" alt="Networking+" />
+      <img src="assets/certificates/architecting-google-kubernetes.jpg" alt="Google Kubernetes" />
+      <img src="assets/certificates/CORE-INFRIA STRUCTUR.jpg" alt="Core Infrastructure" />
+      <img src="assets/certificates/ETHICAL HACKING FOR BEGINNERS.jpg" alt="Ethical Hacking" />
+      <img src="assets/certificates/INTRO-CYBERCRIME.jpg" alt="Introduction to Cybercrime" />
+      <img src="assets/certificates/NETWORKING +.jpg" alt="Networking Plus" />
     </div>
   </section>
 
-  <!-- Video Section -->
+  <!-- Leadership Video -->
   <section id="video" class="fade-in">
     <h2>Leadership Overview</h2>
     <video controls poster="assets/og-image.png" class="promo-video">
-      <source src="assets/Vishal Bhatt Senior IT Manager  Digital Transformation Strategist .mp4" type="video/mp4">
+      <source src="assets/Vishal Bhatt Senior IT Manager  Digital Transformation Strategist .mp4" type="video/mp4" />
     </video>
   </section>
 
@@ -144,7 +147,6 @@
       <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
       <button type="submit" class="btn-primary">Send Message</button>
     </form>
-
     <div class="social">
       <p>Email: <a href="mailto:veby009@gmail.com">veby009@gmail.com</a></p>
       <p>LinkedIn: <a href="https://linkedin.com/in/vishal-bhatt-b0306718" target="_blank">linkedin.com/in/vishal-bhatt-b0306718</a></p>
@@ -153,12 +155,14 @@
     </div>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>© 2025 Vishal Bhatt | VB Secure Portfolio | Aligned with Vastu & Numerology Principles</p>
   </footer>
 
+  <!-- Scripts -->
   <script>
-    // Fade-in animations
+    // Fade-in observer
     const faders = document.querySelectorAll('.fade-in');
     const appearOptions = { threshold: 0.2 };
     const appearOnScroll = new IntersectionObserver((entries, observer) => {
@@ -170,7 +174,7 @@
     }, appearOptions);
     faders.forEach(fader => appearOnScroll.observe(fader));
 
-    // Video sound toggle
+    // Video Sound Toggle
     const video = document.getElementById('heroVideo');
     const soundBtn = document.getElementById('soundToggle');
     soundBtn.addEventListener('click', () => {
